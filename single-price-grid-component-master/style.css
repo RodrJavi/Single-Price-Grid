@@ -1,0 +1,62 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --gray: hsl(204, 43%, 93%);
+    --blue-gray: hsl(218, 22%, 67%);
+}
+
+body {
+
+    background-color: var(--gray);
+
+}
+
+h1,h2,p {
+    font-family: 'Karla', sans-serif;
+}
+
+p{
+    font-size: 16px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+}
+
+.top-card {
+    background-color: white;
+    padding: 1.5em;
+}
+
+.lower-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-card{
+    background-color: var(--cyan);
+    padding: 1.5em;
+}
+
+.left-card > h1,h2,p{
+    color: white;
+    margin: 0px;
+}
+
+.sign-up{
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.right-card{
+    background-color: hsl(179, 62%, 43%, 50%);
+    padding: 3em;
+}
